@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://kit.fontawesome.com/97a5d76f85.js" crossorigin="anonymous"></script>
+    <title>events</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <style>
+  
+
+#eventname{
+  background: rgba(0, 0, 0, 0.71) url(aboutus.jpeg);
+  background-blend-mode: darken;
+  background-size: 100% 100%;
+  padding-top: 20px;
+  padding-bottom: 0px;
+  font-size: 12px;
+}
+
+.html,body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+           
+.footer-dark {
+  padding:50px 0;
+  color:#f0f9ff;
+  background-color:#282d32;
+}
+
+.footer-dark h3 {
+  margin-top:0;
+  margin-bottom:12px;
+  font-weight:bold;
+  font-size:16px;
+}
+
+.footer-dark ul {
+  padding:0;
+  list-style:none;
+  line-height:1.6;
+  font-size:14px;
+  margin-bottom:0;
+}
+
+.footer-dark ul a {
+  color:inherit;
+  text-decoration:none;
+  opacity:0.6;
+}
+
+.footer-dark ul a:hover {
+  opacity:0.8;
+}
+
+@media (max-width:767px) {
+  .footer-dark .item:not(.social) {
+    text-align:center;
+    padding-bottom:20px;
+  }
+}
+
+.footer-dark .item.text {
+  margin-bottom:36px;
+}
+
+@media (max-width:767px) {
+  .footer-dark .item.text {
+    margin-bottom:0;
+  }
+}
+
+.footer-dark .item.text p {
+  opacity:0.6;
+  margin-bottom:0;
+}
+
+.footer-dark .item.social {
+  text-align:center;
+}
+
+@media (max-width:991px) {
+  .footer-dark .item.social {
+    text-align:center;
+    margin-top:20px;
+  }
+}
+
+.footer-dark .item.social > a {
+  font-size:20px;
+  width:36px;
+  height:36px;
+  line-height:36px;
+  display:inline-block;
+  text-align:center;
+  border-radius:50%;
+  box-shadow:0 0 0 1px rgba(255,255,255,0.4);
+  margin:0 8px;
+  color:#fff;
+  opacity:0.75;
+}
+
+.footer-dark .item.social > a:hover {
+  opacity:0.9;
+}
+
+.footer-dark .copyright {
+  text-align:center;
+  padding-top:24px;
+  opacity:0.3;
+  font-size:13px;
+  margin-bottom:0;
+}
+.display-4{
+  @import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+/* Base */
+padding: 0;
+margin: 0;
+background-color: #000;
+display: flex;
+align-items: center;
+}
+</style>
+</head>
+<body>
+
+  <section id="title">
+
+    <!-- nav bar for other pages -->
+    
+  <div class="container1">
+    <nav class="navbar navbar-expand-lg navbar-dark bg">
+      <div class="container-fluid">
+        <img src="Acm logo.png" width="90px" height="50px">
+        <a class="navbar-brand" href="#">SNDT ACM Students' Chapter</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="aboutus.html">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="council.html">Our Council</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href= "event.html">Events</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href= "gallery.html">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href= "#cta">Newsletter</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </section>
+</div>
+
+    <!-- Event header page -->
+    <section id="eventname">
+      <div class="onlyname" data-aos="zoom-in">
+        <div class="col-lg-12-md-6">
+        <h1 id="top">EVENTS</h1>
+      </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,256L120,240C240,224,480,192,720,192C960,192,1200,224,1320,240L1440,256L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"></path></svg>
+    </section>
+    <h1 id="onlyeve">OUR EVENTS</h1>
+
+  <!-- Event cards -->
+<section id ="eventlist">
+  <div class="container" data-aos="fade-up" >
+    <div class="card">
+      <div class="imgBx">
+        <img src="cyber_img.jpg">
+      </div>
+      <div class="contentBx">
+        <div class="content">
+          <h3>“IMPORTANCE OF CYBER SECURITY”</h3>
+          <p>SNDT ACM Students' Chapter organized a webinar on the "Importance of Cyber Security", by Mr. Pravin Swami </p>
+          <a href="#popupbox1"><button>Know More</button></a>
+        </div>
+      </div>
+    </div>
+    <div id="popupbox1" class="pop">
+      <div class="popupcontent">
+        <h2>"IMPORTANCE OF CYBERSECURITY"</h2>
+        <p class="dis"> WEBINAR ON “IMPORTANCE OF CYBER SECURITY” - 13th August 2022 </p>
+        <img id="img" src="cyber_img.jpg" width="100px" height="60%">
+        <p class="dis">SNDT ACM Students' Chapter organized a webinar on the "Importance of Cyber Security", by Mr. Pravin Swami on 13th August, 2022 on Google Meet for the duration of 5:00p.m to 7:00 p.m.
+          Mr. Pravin Swami has worked as an Cyber Cell expert for Maharashtra Police for 9 years. He has worked on many cases like Cryptocurrency frauds, bitcoin fraud which happened in 2000, Social media frauds for money, marriage frauds,International call center frauds, etc.</p>
+        <p class="dis"> There was an overwhelming participation of 70 students along with our new Chapter Sponsor Dr. Anita Morey for the webinar. The Chief Guest explained in detail about the types of Cyber Crimes and hazards of online transactions. 
+          <!-- <p> He addressed the students about the ways by which online frauds can be minimized and how to approach the cyber security field in future.
+          Overall the session was interactive and informative. The feedback of the seminar was excellent. The students gained immense knowledge by which they will be benefited in the future. So by this SNDT ACM Students’ Chapter not only did impart patriotism but also stuck to its technical roots. </p> -->
+        <a href="#onlyeve" class="popupclose">&times</a>
+      </div>
+    </div>
+    <div class="card" data-aos="fade-up">
+      <div class="imgBx">
+        <img src="welcome.jpg">
+      </div>
+      <div class="contentBx">
+        <div class="content">
+          <h3> "WELCOME CEREMONY" </h3>
+          <p> SNDT ACM Students' Chapter organized a "Welcome Ceremony" event on 25th August, 2022 . </p>
+          <a href="#popupbox2"><button>Know More</button></a>
+        </div>
+      </div>
+    </div>
+    <div id="popupbox2" class="pop">
+      <div class="popupcontent">
+        <h2>" WELCOME CEREMONY "</h2>
+        <img id="img" src="welcome.jpg"  height="60%">
+        <p class="dis"> “WELCOME REPRESENTATIVES” EVENT - 25th August 2022 </p>
+        <p class="dis"> SNDT ACM Students' Chapter organized a "Welcome Representatives" event on 25th August, 2022 in the Conference Room for the duration of 1:00p.m to 5:00 p.m.
+          The event started with the introduction of the representatives followed by the speech of our Chapter Coordinator, Dr. Anita Morey ma'am. She congratulated the representatives for joining our council and talked about the rules and presentation for a Chapter member. She also encouraged the listeners to participate actively and to work as a team.</p>
+        <p class="dis"> There was an overwhelming participation of 31 representatives along with our respected Athya ma'am who graced the event. After the orientation and speeches of Current and Elect Chairperson, Elect Vice Chairperson and Elect General Secretary, the event took a fun turn. The representatives were made to play fun technical games such as Technical Hunt where they had to crack technical clues to reach the destination prize. 
+          The event at last witnessed happy faces from every participant perfectly suiting the values of a perfect and united council!</p>
+        <a href="#onlyeve" class="popupclose">&times</a>
+      </div>
+    </div>
+    <div class="card" data-aos="fade-up">
+      <div class="imgBx">
+        <img src="Teachers day.jpeg" width="100px" height="80%">
+      </div>
+      <div class="contentBx">
+        <div class="content">
+          <h3>  "Teacher's Day" </h3>
+          <p> SNDT ACM Students' Chapter celebrated the occasion of "Teachers' Day" on 5
+            th September
+            2022 in our College Campus  </p>
+          <a href="#popupbox3"><button>Know More</button></a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+<div id="popupbox3" class="pop">
+  <div class="popupcontent">
+    <h2> "Teacher's Day" </h2>
+    <img id="img" src="Teachers day.jpeg" width="100px" height="80%">
+    <p class="dis"> SNDT ACM Students' Chapter celebrated the occasion of "Teachers' Day" on 5
+      th September,2022 in our College Campus for the duration of 1:00p.m to 2:45 p.m.
+      The celebration involved the presence of our elects, heads and representatives </p>
+    <p class="dis"> There was an
+      active participation of our representatives who made greeting cards for each and every teaching
+      and non-teaching staff of our college along with a message as to why they are grateful to them.
+      After collecting all cards, the council members started in teams to distribute the cards to our
+      teachers and also to our respected Principal ma’am. </p>
+    <p class="dis" > All the faculty and non-teaching staff appreciated and loved our efforts and wished us good luck
+      for our future events. So by taking the blessings of our gurus, SNDT ACM Students’ Chapter
+      signed off from this celebration. </p>
+    <a href="#onlyeve" class="popupclose">&times</a>
+  </div>
+</div>
+<footer class="footer-dark bd-footer" >
+  <!-- Footer -->
+            <div class="row">
+                <div class="col-sm-6 col-md-3 item" >
+                    <h3>Elect Chairperson :<br><br> Sanskruti Pagare</h3>
+                    <ul>
+                        <li style="padding-left:0px">Contact No.: (+91) 86238 12738 </li>
+                        <li style="padding-left:0px">Email id : Sanskrutipagare@gmail.com </li>
+                        
+                    </ul>
+                </div>
+                <div class="col-sm-6 col-md-3 item">
+                    <h3> Current Chairperson : Mansi Kortikar</h3>
+                    <ul>
+                        <li style="padding-left:0px"> Contact No.: (+91) 93220 93571 </li>
+                        <li style="padding-left:0px">Email id : Mansikortikar@gmail.com </li>
+                        
+                    </ul>
+                </div>
+                
+                <div class="col-sm-2 col-md-2 item">
+                  <h3> Latest News </h3>
+                  <ul>
+                      <li style="padding-left:0px"> AMETHYST </li>
+                      <li style="padding-left:0px"> Coming Soon...</a></a></li>
+                  </ul>
+                  </div>
+                  
+                <div class="col-sm-3 col-md-3 item">
+                  <!-- <div class="  text-center ">
+                      SNDT ACM © 2022
+                       <a  href="#"> Sndtacm.com</a>
+                     </div> -->
+                 
+                      <div style="padding-left:50px">
+                        <a href="https://www.facebook.com/sndtacmchapter/" class="me-4 text-reset">
+                          <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="" class="me-4 text-reset">
+                          <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="https://www.umit.ac.in/acm" class="me-4 text-reset">
+                          <i class="fab fa-google"></i>
+                        </a>
+                        <a href="https://instagram.com/sndt_acm?igshid=YmMyMTA2M2Y=" class="me-4 text-reset">
+                          <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/sndt-acm-students-chapter" class="me-4 text-reset">
+                          <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="" class="me-4 text-reset">
+                          <i class="fab fa-github"></i>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="container">
+                      <div class="  text-center ">
+                          SNDT ACM © 2022
+                           <a  href="#"> Sndtacm.com</a>
+                         </div>
+                    </div>
+                      
+            </footer>
+          </section>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+</body>
+</html>
